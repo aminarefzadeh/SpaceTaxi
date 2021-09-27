@@ -1,0 +1,28 @@
+admin login s3cret
+mamad register_driver mamad50 510 AT_AT_Walker 1998 blue VIP
+amin register_passenger 2981376 09014207863
+mamad register_driver mamad50 510 AT_AT_Walker 1998 blue
+admin set_time 1_10:0:0
+ahmad register_driver ahmad98 510 AT_AT_Walker 2005 red
+ahmad register_driver ahmad98 511 AT_AT_Walker 2005 red
+ahmad_2 register_driver ahmad98 226 aT_AT_Walker 2005 red
+admin show_registration_requests
+admin accept_registration mamad
+admin reject_registration ahmad
+ahmad register_driver ahmad98 511 AT_AT_Walker 2005 red
+admin accept_registration ahmad
+amin get_discount_code
+amin login 2981376
+amin get_discount_code
+amir register_passenger 1382 0955339209
+mamad login mamad50
+ahmad login ahmad98
+mamad set_status available galaxy1,planet1
+amin estimate_trip VIP galaxy1,planet2 galaxy2,planet2 galaxy3,planet1
+amin request_trip VIP galaxy1,planet2 galaxy2,planet2 galaxy3,planet1
+mamad show_trip_requests
+mamad accept_trip_request amin
+amin cancel_trip_request
+mamad arrived
+amin trip_status
+mamad end_trip
